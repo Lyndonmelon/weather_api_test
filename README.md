@@ -146,16 +146,3 @@ The tests include 2-second delays between API calls to respect rate limiting pol
 2. **Network Issues**: Check internet connectivity and API endpoint availability
 3. **Test Failures**: Review assertion messages for specific failure details
 4. **Rate Limiting**: If tests fail due to rate limits, increase sleep intervals
-
-## Contributing
-
-When adding new tests:
-1. Follow the existing naming convention (`test_XX_descriptive_name`)
-2. Include comprehensive docstrings with title, steps, and expected results
-3. Add appropriate pytest markers and dependencies
-4. Include rate limiting delays for API calls
-5. Provide detailed assertion messages
-
-## License
-
-This is a testing project for educational/development purposes.
